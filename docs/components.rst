@@ -22,6 +22,10 @@ Compute Resource is the very first step in provisioning virtual machines and run
     - IP Address of remote machine.
     - The **root** password of the remote machine.
 
+.. figure::  images/compute_create.png
+   :align:   center
+
+   Fig 1.1 - Create Compute Resource
 
 .. note::
 	
@@ -40,6 +44,12 @@ Compute Resource has various validations such as
 	- Root password should be entered correctly.
 
 
+.. figure::  images/compute_view.png
+   :align:   center
+
+   Fig 1.2 - View Existing Compute Resource
+
+
 ++++++++
 Profiles
 ++++++++
@@ -54,10 +64,21 @@ Profile allows user to set various essential parameters to create a virtual mach
     - RAM (in MB)
     - Virtual CPUs
     - Disk Space (in GB)
+
+.. figure::  images/profile_create.png
+   :align:   center
+
+   Fig 2.1 - Create Profile 
+
 + View Existing
 
     Previously created profiles are visible under this section. Same profile can be used multiple times.
     
+.. figure::  images/profile_view.png
+   :align:   center
+
+   Fig 2.2 - View Exiting Profiles 
+
     .. note :: 
 	    
 	Use appropiate profile name which will give the correct idea about all the other details included with it.	 
@@ -88,9 +109,19 @@ Else, use a tool called rsync to fetch the operating system tree, host these fil
 
     Provide the location from where the server can fetch the operating system tree.
 
+.. figure::  images/os_create.png
+   :align:   center
+
+   Fig 3.1 - Add Operating System 
+
 * Already Existing
 
     All existing operating systems are enlisted under this section.
+
+.. figure::  images/os_view.png
+   :align:   center
+
+   Fig 3.2 - View Existing Operating System 
 
 +++++++++++
 Create Host
@@ -139,9 +170,19 @@ While provisioning a virtual machine, packages can be added to a virtual machine
     .. note ::
         A single product name will hold only one URL of a repository not more than that.
     
+.. figure::  images/product_create.png
+   :align:   center
+
+   Fig 5.1 - Create Product
+
 * View Existing
 
     All existing products are enlisted here along with their repository URL.
+
+.. figure::  images/product_view.png
+   :align:   center
+
+   Fig 5.2 - View Existing Products 
 
 ++++
 View
@@ -161,9 +202,19 @@ A single view consists of multiple products along with their corresponding repos
             * To create a view, one or more products can be selected.
             * The view will now consist of the selected products.
 
+.. figure::  images/view_create.png
+   :align:   center
+
+   Fig 6.1 - Create Content View 
+
 * View Existing
 
     All existing view are enlisted here along with the  included products and their corresponding repository URLs.
+
+.. figure::  images/view_view.png
+   :align:   center
+
+   Fig 6.2 - View Existing Content View 
 
 ++++++++++++++
 Activation Key
@@ -185,9 +236,19 @@ Create New
         * To create an activation key, one or more views can be selected.
         * The key will now consist of the selected views.
 
+.. figure::  images/activation_create.png
+   :align:   center
+
+   Fig 7.1 - Create Activation Key 
+
 * View Existing
 
     All existing activation keys are enlisted here along with the multiple views and products that they consist of.
+
+.. figure::  images/activation_view.png
+   :align:   center
+
+   Fig 7.2 - View Existing Activation Keys 
 
 Containers
 ----------
@@ -208,6 +269,11 @@ New Container
 - Host port and container port are mapped to each other which makes services running inside container accessible from outside.
 - If image is not available  on the selected compute resource, then it is pulled from Docker registry and then run accordingly.
 
+.. figure::  images/docker_create.png
+   :align:   center
+
+   Fig 8.1 - Create Docker Container 
+
 ++++++++++++
 Local Images
 ++++++++++++
@@ -215,6 +281,9 @@ Local Images
 - Docker images available on remote compute resources are displayed with details such as **Image Name & Tag**, **Image ID**, **Created**, **Size**.
 - Any new image found on any compute resource will be enlisted here.
 
+.. figure::  images/docker_local.png
+   :align:   center
 
+   Fig 8.2 - View Local Avialable Images on Remote System
 
 
