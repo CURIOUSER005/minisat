@@ -94,22 +94,22 @@ Finally, just hit the ``Create Instance`` button and virtual machine deployment 
 .. figure::  images/virtual_machine.png
    :align:   center
 
-   Fig 9.1 - Dashboard (Virual Machine)
+   Dashboard (Virual Machine)
 
 .. figure::  images/vm_info.png
    :align:   center
 
-   Fig 9.2 - Virual Machine Info
+   Virual Machine Info
 
 .. figure::  images/repos.jpg
    :align:   center
 
-   Fig 9.3 - Host System Repositories
+   Host System Repositories
 
 .. figure::  images/packages.jpg
    :align:   center
 
-   Fig 9.4 - Packages in Host System
+   Packages in Host System
 
 Running Docker containers
 -------------------------
@@ -158,4 +158,4 @@ Check running containers on dashboard under Docker containers tab.
 .. figure::  images/docker_container.png
    :align:   center
 
-   Fig 10.1 Dashboard (Docker Container)
+   Dashboard (Docker Container)

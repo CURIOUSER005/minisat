@@ -25,7 +25,7 @@ Compute Resource is the very first step in provisioning virtual machines and run
 .. figure::  images/compute_create.png
    :align:   center
 
-   Fig 1.1 - Create Compute Resource
+   Create Compute Resource
 
 .. note::
 	
@@ -47,7 +47,7 @@ Compute Resource has various validations such as
 .. figure::  images/compute_view.png
    :align:   center
 
-   Fig 1.2 - View Existing Compute Resource
+   View Existing Compute Resource
 
 
 ++++++++
@@ -68,7 +68,7 @@ Profile allows user to set various essential parameters to create a virtual mach
 .. figure::  images/profile_create.png
    :align:   center
 
-   Fig 2.1 - Create Profile 
+   Create Profile 
 
 + View Existing
 
@@ -77,7 +77,7 @@ Profile allows user to set various essential parameters to create a virtual mach
 .. figure::  images/profile_view.png
    :align:   center
 
-   Fig 2.2 - View Exiting Profiles 
+   View Exiting Profiles 
 
     .. note :: 
 	    
@@ -112,7 +112,7 @@ Else, use a tool called rsync to fetch the operating system tree, host these fil
 .. figure::  images/os_create.png
    :align:   center
 
-   Fig 3.1 - Add Operating System 
+   Add Operating System 
 
 * Already Existing
 
@@ -121,7 +121,7 @@ Else, use a tool called rsync to fetch the operating system tree, host these fil
 .. figure::  images/os_view.png
    :align:   center
 
-   Fig 3.2 - View Existing Operating System 
+   View Existing Operating System 
 
 +++++++++++
 Create Host
@@ -173,7 +173,7 @@ While provisioning a virtual machine, packages can be added to a virtual machine
 .. figure::  images/product_create.png
    :align:   center
 
-   Fig 5.1 - Create Product
+   Create Product
 
 * View Existing
 
@@ -182,7 +182,7 @@ While provisioning a virtual machine, packages can be added to a virtual machine
 .. figure::  images/product_view.png
    :align:   center
 
-   Fig 5.2 - View Existing Products 
+   View Existing Products 
 
 ++++
 View
@@ -205,7 +205,7 @@ A single view consists of multiple products along with their corresponding repos
 .. figure::  images/view_create.png
    :align:   center
 
-   Fig 6.1 - Create Content View 
+   Create Content View 
 
 * View Existing
 
@@ -214,7 +214,7 @@ A single view consists of multiple products along with their corresponding repos
 .. figure::  images/view_view.png
    :align:   center
 
-   Fig 6.2 - View Existing Content View 
+   View Existing Content View 
 
 ++++++++++++++
 Activation Key
@@ -239,7 +239,7 @@ Create New
 .. figure::  images/activation_create.png
    :align:   center
 
-   Fig 7.1 - Create Activation Key 
+   Create Activation Key 
 
 * View Existing
 
@@ -248,7 +248,7 @@ Create New
 .. figure::  images/activation_view.png
    :align:   center
 
-   Fig 7.2 - View Existing Activation Keys 
+   View Existing Activation Keys 
 
 Containers
 ----------
@@ -272,7 +272,7 @@ New Container
 .. figure::  images/docker_create.png
    :align:   center
 
-   Fig 8.1 - Create Docker Container 
+   Create Docker Container 
 
 ++++++++++++
 Local Images
@@ -284,6 +284,6 @@ Local Images
 .. figure::  images/docker_local.png
    :align:   center
 
-   Fig 8.2 - View Local Avialable Images on Remote System
+   View Local Avialable Images on Remote System
 
 
