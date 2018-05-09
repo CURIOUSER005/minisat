@@ -16,6 +16,8 @@ Welcome to Minisat's documentation!
    usage
    methods
    contribute
+   conclusion
+   reference
 
 
 
